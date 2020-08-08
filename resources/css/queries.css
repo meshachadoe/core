@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1023px) {
+    .header-image {
+        height: 320px;
+        top: 35%;
+        left: 55%;
+    }
+
+    .section-program-1 img {
+        height: 310px;
+        top: 195%;
+        right: 54%;
+    }
+
+    .section-program-2 img {
+        height: 360px;
+        top: 270%;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+    body { 
+        font-size: 14px; 
+        /* overflow-x: hidden; */
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+
+    .tagline {
+        font-size: 120%;
+    }
+    .header-image {
+        display:none;
+    }
+    .textbox-container-right {
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+        flex-flow: wrap;
+    }
+
+    .textbox-container-left {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        flex-flow: wrap;
+
+    }
+
+    .text-box {
+        display: block;
+        width: 200px;
+    }
+
+    .box-left { margin-right: 0px; }
+    .box-right { margin-left: 0px;}
+
+    .section-program-1 img,
+    .section-program-2 img {
+        display: none;
+        /* height: 310px;
+        top: 195%;
+        right: 80%; */
+    }
+
+    .section-program-1 h2,
+    .section-program-2 h2 {
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .section-contact ul {
+        font-size: 60%;
+    }
+
+    .nav {display:none;}
+
+}
