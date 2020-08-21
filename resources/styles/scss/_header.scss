@@ -1,0 +1,24 @@
+header {
+    height: 100vh;
+}
+
+.main-heading {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.header-image {
+    height: 400px;
+    width: auto;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    z-index: -9999;
+}
+
+.tagline {
+    font-size: 160%;
+    line-height: 100%;
+    font-weight: 500;
+}

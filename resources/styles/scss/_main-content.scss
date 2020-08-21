@@ -1,0 +1,108 @@
+/* --------------------------------------------- */
+/* ABOUT SECTION */
+/* --------------------------------------------- */
+
+.section-about {
+    background-color: #2D3D8B;
+    height: 80vh;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* --------------------------------------------- */
+/* INSTRUCTION-BASED PROGRAM SECTION*/
+/* --------------------------------------------- */
+
+.section-program-1 {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        padding: 0 15%;
+        line-height: 80%;
+        text-align: right;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    img {
+        height: 350px;
+        width: auto;
+        position: absolute;
+        top: 195%;
+        right: 50%;
+        z-index: -9999;
+    }
+}
+
+/* --------------------------------------------- */
+/* CONSULTATION-BASED PROGRAM SECTION */
+/* --------------------------------------------- */
+
+.section-program-2 {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+
+    h2 {
+        padding: 0 15%;
+        line-height: 80%;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    img {
+        height: 420px;
+        width: auto;
+        position: absolute;
+        top: 270%;
+        left: 50%;
+        z-index: -9999;
+    }
+}
+
+/* --------------------------------------------- */
+/* CONTACT US */
+/* --------------------------------------------- */
+
+.section-contact {
+    height: 80vh;
+    background-color: #2D3D8B;
+    
+    h2, ul {
+        margin-left: 15%;
+        z-index: 9999;
+    }
+
+    h2 {
+        margin-top: 140px;
+        color: white;
+    }
+
+    ul li {
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 150%;
+            letter-spacing: 1px;
+        }
+    }
+
+    img {
+        height: 350px;
+        width: auto;
+        position: absolute;
+        top: 370%;
+        left: 50%;
+        z-index: 9998;
+    }
+}
