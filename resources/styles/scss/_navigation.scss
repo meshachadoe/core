@@ -21,6 +21,7 @@
         height: 60px;
         width: auto;
         z-index: 9999;
+        cursor: pointer;
     }
 }
 
@@ -43,4 +44,22 @@
             text-decoration: underline;
         }
     }
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+}
+
+.anchor-about {
+    top: -200px;
+}
+
+.anchor-programs {
+    top: -160px;
+}
+
+.anchor-contact {
+    top: -100px;
 }

@@ -249,14 +249,18 @@ header {
   background-color: #2D3D8B;
 }
 
-.section-contact h2, .section-contact ul {
+.section-contact h2, .section-contact ul, .section-contact p {
   margin-left: 15%;
   z-index: 9999;
+  color: white;
 }
 
 .section-contact h2 {
   margin-top: 140px;
-  color: white;
+}
+
+.section-contact p {
+  margin: 5px 0 5px 15%;
 }
 
 .section-contact ul li {
@@ -266,8 +270,20 @@ header {
 .section-contact ul li a {
   text-decoration: none;
   color: white;
-  font-size: 150%;
+  font-size: 200%;
   letter-spacing: 1px;
+  -webkit-transition: -webkit-text-decoration 4.0s;
+  transition: -webkit-text-decoration 4.0s;
+  transition: text-decoration 4.0s;
+  transition: text-decoration 4.0s, -webkit-text-decoration 4.0s;
+  -webkit-transition: text-decoration 4.0s;
+  -moz-transition: text-decoration 4.0s;
+  -ms-transition: text-decoration 4.0s;
+  -o-transition: text-decoration 4.0s;
+}
+
+.section-contact ul li a:hover {
+  text-decoration: underline;
 }
 
 .section-contact img {
@@ -326,6 +342,7 @@ footer p {
   height: 60px;
   width: auto;
   z-index: 9999;
+  cursor: pointer;
 }
 
 .nav__links {
@@ -353,5 +370,23 @@ footer p {
 
 .nav__links li a:hover {
   text-decoration: underline;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
+.anchor-about {
+  top: -200px;
+}
+
+.anchor-programs {
+  top: -160px;
+}
+
+.anchor-contact {
+  top: -100px;
 }
 /*# sourceMappingURL=main.css.map */

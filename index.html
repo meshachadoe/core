@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/lsf3vef.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css/animate.min.css">
         <link rel="stylesheet" type="text/css" href="resources/styles/main.css">
+        <link rel="icon" href="resources/img/favicon.png">
         <!-- <link rel="stylesheet" type="text/css" href="resources/css/queries.css"> -->
 
         <title>Core Consulting</title>
@@ -14,9 +15,9 @@
     <body>
         <header>
             <div class="nav animate__animated animate__fadeInDown">
-                <img src="resources/img/logo/Artboard 4_1.svg" alt="Core Logo" class="logo">
+                <a class="scrollTop"><img src="resources/img/logo/Artboard 4_1.svg" alt="Core Logo" class="logo"></a>
                 <ul class="nav__links">
-                    <li><a href="#about">about us</a></li>
+                    <li><a class="nav-about" href="#about">about us</a></li>
                     <li><a href="#program-1">our programs</a></li>
                     <li><a href="#contact">contact us</a></li>
                 </ul>
@@ -29,19 +30,21 @@
             </div>
             <img src="resources/img/FloatDoodle.png" alt="Human Illustration" class="header-image animate__animated animate__fadeInRight">
         </header>
-        <section class="section-about" id="about">
-            <h2 class="js--wp-1">about us</h2>
-            <p class="long-pg js--wp-1">
+        <section class="section-about">
+            <a class="anchor anchor-about" id="about"></a>
+            <h2>about us</h2>
+            <p class="long-pg">
                 Core Consulting is a dynamic consulting agency <br> that specializes in Early Childhood Education (0-12 Years). <br> &nbsp; <br> We are committed to providing quality early childhood education <br> services that are of high interest and conducting practical training <br> for teaching professionals, aspiring teachers and schools.
             </p>
         </section>
-        <section class="section-program-1" id="program-1">
+        <section class="section-program-1">
+            <a class="anchor anchor-programs" id="program-1"></a>
             <img src="resources/img/MessyDoodle.png" alt="Human Messy Illustration">
             <h2>instruction <br> based programs</h2>
             <div class="textbox-container-right">
                 <div class="text-box box-right">
-                    <h3>Short <br> Courses</h3>
-                    <p> courses designed for parents interested in best practices in nurturing their children. </p>
+                    <h3>Parenting <br> Courses</h3>
+                    <p> courses designed for parents interested in best practices in nurturing their children </p>
                 </div>
                 <div class="text-box box-right">
                     <h3>ProDev <br> Courses</h3>
@@ -55,20 +58,21 @@
             <div class="textbox-container-left">
                 <div class="text-box box-left">
                     <h3>Educational <br> Placement</h3>
-                    <p> courses designed for teaching professionals to develop competency in teaching </p>
+                    <p> services designed for teaching professionals to develop competency in teaching </p>
                 </div>
                 <div class="text-box box-left">
                     <h3>Educational <br> Consulting</h3>
-                    <p> courses designed for conduct audits and appraisals of schools, providing recommendations and solutions
+                    <p> services to conduct audits and appraisals of schools, providing recommendations and solutions
                     </p>
                 </div>
             </div>
         </section>
-        <section class="section-contact" id="contact">
-            <h2>contact us</h2>
+        <section class="section-contact">
+            <a class="anchor anchor-contact" id="contact"></a>
+            <h2>reach out!</h2>
+            <p>Interested in using our services or have any inquiries <br> about the our programs? Contact us through our Instagram!</p>
             <ul>
-                <li><a href="#"><ion-icon name="logo-instagram" class="icon"></ion-icon>@core_consulting</a></li>
-                <li><a href="#"><ion-icon name="call-outline" class="icon"></ion-icon>+62 812 15800723</a></li>
+                <li><a href="https://www.instagram.com/core_ind/" target="_blank">@core_consulting</a></li>
             </ul>
             <!-- <img src="resources/img/LayingDoodle (1).png" alt="Human Laying Illustration"> -->
         </section>
@@ -79,8 +83,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    <script src="resources/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>    <script src="resources/js/script.js"></script>
 
     </body>
 </html>
