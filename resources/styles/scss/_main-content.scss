@@ -11,6 +11,9 @@
     justify-content: center;
     flex-direction: column;
     align-content: center;
+    p {
+        padding: 0 20%;
+    }
 }
 
 /* --------------------------------------------- */
@@ -36,7 +39,8 @@
         width: auto;
         position: absolute;
         top: 195%;
-        right: 50%;
+        align-self: flex-start;
+        margin-left: 14%;
         z-index: -9999;
     }
 }
@@ -64,7 +68,8 @@
         width: auto;
         position: absolute;
         top: 270%;
-        left: 50%;
+        align-self: flex-end;
+        margin-right: 14%;
         z-index: -9999;
     }
 }
@@ -76,16 +81,21 @@
 .section-contact {
     height: 80vh;
     background-color: #2D3D8B;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 80px;
     
     h2, ul, p {
-        margin-left: 15%;
         z-index: 9999;
-        color: white;
+        color: #ffffff;
     }
 
-    h2 { margin-top: 140px; }
+    h2 { 
+        margin-top: 140px;
+    }
 
-    p { margin: 5px 0 5px 15%; }
+    p { margin: 5px inherit; }
 
     ul li {
         list-style: none;
@@ -95,10 +105,6 @@
             font-size: 200%;
             letter-spacing: 1px;
             transition: text-decoration 4.0s;
-            -webkit-transition: text-decoration 4.0s;
-            -moz-transition: text-decoration 4.0s;
-            -ms-transition: text-decoration 4.0s;
-            -o-transition: text-decoration 4.0s;
 }
         a:hover {
             text-decoration: underline;

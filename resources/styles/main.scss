@@ -2,9 +2,11 @@
 @import 'scss/base';
 @import 'scss/typography';
 @import 'scss/components';
+@import '../../vendors/node_modules/include-media/dist/include-media';
 
 // 2 - LAYOUTS
 @import 'scss/header';
 @import 'scss/main-content';
 @import 'scss/footer';
 @import 'scss/navigation';
+@import 'scss/queries';

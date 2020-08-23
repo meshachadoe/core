@@ -1,0 +1,110 @@
+@include media('>phone', '<=tablet') {
+    body { 
+        font-size: 18px; 
+        overflow-x: hidden;
+    }
+    // section { padding: 60px 0; }
+
+    header {
+        height: 600px;
+        .main-heading {
+            padding-top: 20vh;
+            padding-left: 7vw;
+        }
+        h1 {
+            font-size: 400%;
+        }
+        .tagline {
+            font-size: 110%;
+        }
+        .header-image {
+            height: 250px;
+            width: auto;
+            position: absolute;
+            top: 50%;
+            left: 6%;
+            z-index: 9998;
+        }
+    }
+    
+
+    nav {
+        width: 100vw;
+        padding: 10px 7vw;
+        position: fixed;
+        ul {
+            display:none;
+        }
+        .logo {
+            height: 60px;
+            width: auto;
+            z-index: 9999;
+            cursor: pointer;
+        }
+    }
+
+    .section-about {
+        height: 600px;
+        p {
+            padding: 0 5px;
+        }
+    }
+
+    .textbox-container-right {
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 0;
+        flex-flow: wrap;
+    }
+
+    .textbox-container-left {
+        justify-content: center;
+        padding-left: 0;
+        flex-flow: wrap;
+    }
+
+    .text-box {
+        display: block;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .box-left { margin-right: 0px; }
+    .box-right { margin-left: 0px;}
+
+    .section-program-1,
+    .section-program-2 {
+        margin: 0;
+        padding: 0;
+        h2 {
+            font-size: 300%;
+            text-align: right;
+            padding-right: 40px;
+        }
+        img {
+            height: 300px;
+            margin-top: -270px;
+            align-self: flex-start;
+            z-index: -9999;
+            margin-left: -150px;
+        }
+    }
+
+    .section-program-1 img {
+        margin-top: -240px;
+    }
+
+    .section-contact {
+        align-content: center;
+        align-items: center;
+        padding-left: 0px;
+        h2, p, ul li a {
+            text-align: center;
+        }
+        p {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+    }
+    
+}
