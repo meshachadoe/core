@@ -78,6 +78,7 @@
   }
   .section-program-1,
   .section-program-2 {
+    height: 600px;
     margin: 0;
     padding: 0;
   }
@@ -101,6 +102,7 @@
     margin-bottom: 100px;
   }
   .section-contact {
+    height: 600px;
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-align: center;
