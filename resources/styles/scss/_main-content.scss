@@ -35,12 +35,12 @@
     }
 
     img {
-        height: 350px;
+        height: 380px;
         width: auto;
         position: absolute;
         top: 195%;
+        padding-left: 200px;
         align-self: flex-start;
-        margin-left: 14%;
         z-index: -9999;
     }
 }
@@ -67,9 +67,9 @@
         height: 420px;
         width: auto;
         position: absolute;
-        top: 270%;
+        top: 265%;
+        padding-right: 150px;
         align-self: flex-end;
-        margin-right: 14%;
         z-index: -9999;
     }
 }
@@ -90,8 +90,14 @@
         color: #ffffff; 
         margin-bottom: 10px;
     }
+
     h2 { margin-top: 140px; }
-    p { margin: 5px inherit; }
+
+    p { 
+        padding-right: 40%;
+        font-size: 130%;
+        margin: 5px inherit;
+    }
 
     ul li {
         list-style: none;

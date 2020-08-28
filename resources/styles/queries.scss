@@ -24,9 +24,9 @@
             height: 250px;
             width: auto;
             position: absolute;
-            top: 50%;
-            left: 6%;
-            z-index: 9998;
+            top: 400px;
+            left: 20px;
+            z-index: -9999;
         }
     }
     
@@ -49,8 +49,8 @@
     .section-about {
         height: 600px;
         p {
-            padding: 0 5px;
-            text-align: left;
+            padding: 0 4px;
+            text-align: center;
         }
     }
 
@@ -69,7 +69,7 @@
 
     .text-box {
         display: block;
-        width: 300px;
+        width: 260px;
         margin-bottom: 30px;
     }
 
@@ -86,17 +86,21 @@
             padding-right: 40px;
         }
         img {
+            padding: 0;
+            margin: 0;
             height: 300px;
-            margin-top: -270px;
+            margin: -50px 0 0 -180px;
             align-self: flex-start;
             z-index: -9999;
-            margin-left: -150px;
         }
     }
 
-    .section-program-1 img {
-        margin-top: -240px;
+    .section-program-1 {
+        margin-bottom: 100px;
     }
+
+    // .section-program-1 img {
+    // }
 
     .section-contact {
         align-content: center;
@@ -106,9 +110,14 @@
             text-align: center;
         }
         p {
+            font-size: 120%;
             padding-right: 30px;
             padding-left: 30px;
         }
+    }
+
+    footer p {
+        text-align: center;
     }
     
 }

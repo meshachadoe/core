@@ -209,13 +209,13 @@ header {
 }
 
 .section-program-1 img {
-  height: 350px;
+  height: 380px;
   width: auto;
   position: absolute;
   top: 195%;
+  padding-left: 200px;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  margin-left: 14%;
   z-index: -9999;
 }
 
@@ -248,10 +248,10 @@ header {
   height: 420px;
   width: auto;
   position: absolute;
-  top: 270%;
+  top: 265%;
+  padding-right: 150px;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  margin-right: 14%;
   z-index: -9999;
 }
 
@@ -284,6 +284,8 @@ header {
 }
 
 .section-contact p {
+  padding-right: 40%;
+  font-size: 130%;
   margin: 5px inherit;
 }
 
@@ -329,7 +331,7 @@ footer img {
 footer p {
   font-weight: 200;
   font-size: 60%;
-  text-align: center;
+  text-align: right;
 }
 
 nav {
@@ -343,7 +345,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  padding: 20px 10%;
+  padding: 10px 10%;
   position: fixed;
   /* margin: 1%; */
   background-color: #2D3D8B;
@@ -409,123 +411,5 @@ nav .logo {
 
 .anchor-contact {
   top: -100px;
-}
-
-@media (min-width: 321px) and (max-width: 768px) {
-  body {
-    font-size: 18px;
-    overflow-x: hidden;
-    text-align: left;
-  }
-  header {
-    height: 600px;
-  }
-  header .main-heading {
-    padding-top: 30vh;
-    padding-left: 7vw;
-  }
-  header h1 {
-    font-size: 300%;
-  }
-  header .tagline {
-    font-size: 110%;
-  }
-  header .header-image {
-    height: 250px;
-    width: auto;
-    position: absolute;
-    top: 50%;
-    left: 6%;
-    z-index: 9998;
-  }
-  nav {
-    width: 100vw;
-    padding: 10px 7vw;
-    position: fixed;
-  }
-  nav ul {
-    display: none;
-  }
-  nav .logo {
-    height: 60px;
-    width: auto;
-    z-index: 9999;
-    cursor: pointer;
-  }
-  .section-about {
-    height: 600px;
-  }
-  .section-about p {
-    padding: 0 5px;
-    text-align: left;
-  }
-  .textbox-container-right {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    padding-right: 0;
-    -ms-flex-flow: wrap;
-        flex-flow: wrap;
-  }
-  .textbox-container-left {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 0;
-    -ms-flex-flow: wrap;
-        flex-flow: wrap;
-  }
-  .text-box {
-    display: block;
-    width: 300px;
-    margin-bottom: 30px;
-  }
-  .box-left {
-    margin-right: 0px;
-  }
-  .box-right {
-    margin-left: 0px;
-  }
-  .section-program-1,
-  .section-program-2 {
-    margin: 0;
-    padding: 0;
-  }
-  .section-program-1 h2,
-  .section-program-2 h2 {
-    font-size: 300%;
-    text-align: right;
-    padding-right: 40px;
-  }
-  .section-program-1 img,
-  .section-program-2 img {
-    height: 300px;
-    margin-top: -270px;
-    -ms-flex-item-align: start;
-        align-self: flex-start;
-    z-index: -9999;
-    margin-left: -150px;
-  }
-  .section-program-1 img {
-    margin-top: -240px;
-  }
-  .section-contact {
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 0px;
-  }
-  .section-contact h2, .section-contact p, .section-contact ul li a {
-    text-align: center;
-  }
-  .section-contact p {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
 }
 /*# sourceMappingURL=main.css.map */
