@@ -84,17 +84,13 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 80px;
+    padding-left: 140px;
     
-    h2, ul, p {
-        z-index: 9999;
-        color: #ffffff;
+    h2, ul, p { 
+        color: #ffffff; 
+        margin-bottom: 10px;
     }
-
-    h2 { 
-        margin-top: 140px;
-    }
-
+    h2 { margin-top: 140px; }
     p { margin: 5px inherit; }
 
     ul li {
@@ -104,8 +100,8 @@
             color: white;
             font-size: 200%;
             letter-spacing: 1px;
-            transition: text-decoration 4.0s;
-}
+            transition: text-decoration 0.2s;
+        }
         a:hover {
             text-decoration: underline;
         }

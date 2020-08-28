@@ -1,5 +1,5 @@
 html {
-    font-family: 'Degular Display', sans-serif;
+    font-family: degular-display, sans-serif;
     font-weight: 500;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -13,8 +13,9 @@ h3 {
 }
 
 p {
+    font-family: degular-display, sans-serif;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 h1 {

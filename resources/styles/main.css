@@ -16,8 +16,17 @@ html {
   margin: 0 auto;
 }
 
+img {
+  border: 0;
+  border-inline: 0;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 html {
-  font-family: 'Degular Display', sans-serif;
+  font-family: degular-display, sans-serif;
   font-weight: 500;
   font-size: 20px;
   text-rendering: optimizeLegibility;
@@ -31,8 +40,9 @@ h3 {
 }
 
 p {
+  font-family: degular-display, sans-serif;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -261,12 +271,12 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 80px;
+  padding-left: 140px;
 }
 
 .section-contact h2, .section-contact ul, .section-contact p {
-  z-index: 9999;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .section-contact h2 {
@@ -286,10 +296,10 @@ header {
   color: white;
   font-size: 200%;
   letter-spacing: 1px;
-  -webkit-transition: -webkit-text-decoration 4.0s;
-  transition: -webkit-text-decoration 4.0s;
-  transition: text-decoration 4.0s;
-  transition: text-decoration 4.0s, -webkit-text-decoration 4.0s;
+  -webkit-transition: -webkit-text-decoration 0.2s;
+  transition: -webkit-text-decoration 0.2s;
+  transition: text-decoration 0.2s;
+  transition: text-decoration 0.2s, -webkit-text-decoration 0.2s;
 }
 
 .section-contact ul li a:hover {
@@ -319,6 +329,7 @@ footer img {
 footer p {
   font-weight: 200;
   font-size: 60%;
+  text-align: center;
 }
 
 nav {
@@ -404,16 +415,17 @@ nav .logo {
   body {
     font-size: 18px;
     overflow-x: hidden;
+    text-align: left;
   }
   header {
     height: 600px;
   }
   header .main-heading {
-    padding-top: 20vh;
+    padding-top: 30vh;
     padding-left: 7vw;
   }
   header h1 {
-    font-size: 400%;
+    font-size: 300%;
   }
   header .tagline {
     font-size: 110%;
@@ -445,6 +457,7 @@ nav .logo {
   }
   .section-about p {
     padding: 0 5px;
+    text-align: left;
   }
   .textbox-container-right {
     -webkit-box-pack: center;

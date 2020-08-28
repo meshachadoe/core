@@ -1,18 +1,21 @@
+@import '../../vendors/node_modules/include-media/dist/include-media';
+
 @include media('>phone', '<=tablet') {
     body { 
         font-size: 18px; 
         overflow-x: hidden;
+        text-align: left;
     }
     // section { padding: 60px 0; }
 
     header {
         height: 600px;
         .main-heading {
-            padding-top: 20vh;
+            padding-top: 30vh;
             padding-left: 7vw;
         }
         h1 {
-            font-size: 400%;
+            font-size: 300%;
         }
         .tagline {
             font-size: 110%;
@@ -47,6 +50,7 @@
         height: 600px;
         p {
             padding: 0 5px;
+            text-align: left;
         }
     }
 
